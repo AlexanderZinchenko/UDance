@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="19px" viewBox="0 0 12 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>закладки</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Список-ивентов" transform="translate(-1185.000000, -194.000000)" stroke="#ADB0B6">
+            <g id="1" transform="translate(428.000000, 183.000000)">
+                <path d="M757,14.0099037 C757,12.3475798 758.341623,11 759.997152,11 L766.002848,11 C767.658129,11 769,12.3465803 769,14.0099037 L769,27.8079388 C769,29.4702627 768.130105,29.8018718 767.029083,28.5536172 C767.029083,28.5536172 763.975041,24.8287334 763,24.8287334 C761.973143,24.8287334 758.955111,28.5536172 758.955111,28.5536172 C757.875333,29.8041143 757,29.4712622 757,27.8079388 L757,14.0099037 Z" id="закладки"></path>
+            </g>
+        </g>
+    </g>
+</svg>

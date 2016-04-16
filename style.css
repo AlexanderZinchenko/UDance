@@ -1,0 +1,296 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #888b91;	
+    font-weight: bold;
+    font-size: 1.1em;
+    background: #f8f8fa;
+}
+
+header {
+	padding-top: 10px;
+	background: white;
+	margin-bottom: 15px;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	border-bottom: 2px solid #cecfd3;
+}
+
+.sidebar {
+	width: 240px;
+	display: inline-block;
+	float: left;
+	background: white;
+	margin-left: 150px;
+}
+
+.emblem, .BroweEvent, .user {
+	display: inline-block;
+	line-height: 56px;
+	margin-right: 10px;
+}
+
+.searchbar {
+	margin-right: 10px;
+}
+
+.emblem, .searchbar, .BroweEvent {
+	float: left;
+}
+
+.user, .help, .createButtonEvent {
+	float: right;
+}
+
+#submit {
+	border-radius: 100%;
+}
+
+.newEvent {
+	background-color: #00aaec;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+	outline: none;
+	text-transform: uppercase;
+}
+
+.container-1{
+  width: 230px;
+  position: relative;
+}
+
+.container-1 input#search{
+  width: 220px;
+  height: 50px;
+  border: none;
+  font-size: 1.01em;
+  float: left;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #eceef2;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+   color: #d2d6df;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #d2d6df;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #d2d6df;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #d2d6df;  
+}
+
+.container-1 .icon{
+  position: absolute;
+  left: 5%;
+  margin-top: 12px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.emblem {
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.BroweEvent {
+	font-weight: bold;
+	margin-top: -4px;
+}
+
+.user-img {
+	vertical-align: middle;
+}
+
+.user {
+	margin-top: -3px;
+}
+
+.sidebarButtons {
+	padding: 0 15px;
+}
+
+.sidebarButtons > div {
+	border-bottom: 1px solid #d8dbe3;
+	color: #7cd2f8;
+	height: 2.5em;
+}
+
+.sidebarButtons > div > p {
+	display: inline-block;
+	line-height: 1em;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.sidebarButtons > div > img {
+	float: right;
+	padding: 20px 15px 0;
+}
+
+.loc {
+	border: 1px solid #d8dbe3;
+	margin: 5px;
+	border-radius: 5px;
+	height: 2.5em;
+	padding-left: 20px;
+}
+
+.kiev {
+	color: #91959b;
+	display: inline-block;
+	line-height: 7px;
+}
+
+.loc > img {
+	margin: 10px 15px 10px 0px;
+	float: left;
+}
+
+body > header > div.createButtonEvent > button {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	border: 0;
+  	-webkit-box-shadow: inset 0 -2px #2a8bcc;
+  	margin-right: 10px;
+}
+
+body > header > div.createButtonEvent > button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.content {
+	width: 780px;
+	margin-left: 30px;
+	height: 800px;
+	display: inline-block;
+}
+
+h1 {
+	color: #2d3341;
+	font-size: 35px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+#today {
+	height: 5px;
+	font-size: 0.9em;
+}
+
+.location {
+	border-bottom: 1px solid #777b83;
+}
+
+.posts > div{
+	width: 780px;
+	height: 139px;
+	max-width: 780px;
+	max-height: 139px;
+	background: white;
+	margin: 10px 0;
+}
+
+.posts > div > .post-txt {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.post-txt {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.date {
+	font-size: 0.7em;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	color: #232730;
+	height: 0;
+}
+
+.place {
+	font-size: 0.6em;
+	color: #c4c6cb;
+	margin-top: 30px;
+}
+
+.post-footer {
+	width: 560px;
+	border-top: 1px solid #777b83;
+	margin-top: 25px;
+}
+
+.posts-buttons {
+	display: inline-block;
+	float: right;
+	background-color: #00aaec;
+	width: 200px;
+	height: 35px;
+	color: white;
+	font-size: 1em;
+	outline: none;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	border: 0;
+  	-webkit-box-shadow: inset 0 -2px #2a8bcc;
+}
+
+.posts-buttons:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.tags {
+	display: inline-block;
+	line-height: 0;
+	font-size: 0.6em;
+}
+
+.icons {
+	position: absolute;
+	margin-top: 10px;
+}
+
+#icon1 {	
+	margin-left: 500px;
+}
+
+#icon2 {	
+	margin-left: 540px;
+}
+
+#tomorrow {
+	border-bottom: 1px solid #777b83;
+}
+
+footer {
+	height: 40px;
+	width: 100%;
+	background: #282c35;
+	border-top: 5px solid #666a73;
+	margin-top: 90px;
+}
